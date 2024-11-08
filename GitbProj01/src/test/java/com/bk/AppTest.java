@@ -42,4 +42,13 @@ public class AppTest {
 		
 		assertEquals(expected, actual);
 	}
+	
+	public void testWithZeros()
+	{
+		int expected=app.add(0, 0);
+		
+		int actual=0;
+		
+		assertEquals(expected, actual);
+	}
 }
