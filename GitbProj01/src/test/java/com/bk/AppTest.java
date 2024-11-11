@@ -43,6 +43,7 @@ public class AppTest {
 		assertEquals(expected, actual);
 	}
 	
+	@Test
 	public void testWithZeros()
 	{
 		int expected=app.add(0, 0);
