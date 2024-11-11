@@ -14,7 +14,7 @@ public class App {
         
     	App app=new App();
     	
-    	app.add(20, 150);
+    	app.add(20, 300);
     	
     	
     }
