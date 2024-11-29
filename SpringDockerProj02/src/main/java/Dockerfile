@@ -1,4 +1,4 @@
 FROM openjdk
-WORKDIR /App1
-COPY target/*.jar /App1
+WORKDIR /app1
+COPY target/*.jar /app1
 CMD ["java","-jar","BookApplication1.jar"]
